@@ -1,0 +1,79 @@
+.container {
+  height: 400px;
+  width: 50%;
+  border: 2px solid black;
+  margin-left: 25%;
+  background-color: rgb(226, 226, 220);
+}
+
+body {
+  background-color: rgb(241, 235, 235);
+}
+
+.title {
+  color: black;
+  font-Size: 50px;
+  margin-Left: 40%;
+  margin-top: 7%;
+}
+
+.img {
+  border-radius: 50%;
+  height: 300px;
+  width: 40%;
+  position: relative;
+  top: 58px;
+  left: 40px;
+}
+
+.container h1 {
+  margin-Left: 27%;
+  position: absolute;
+  bottom: 52%;
+}
+
+.address {
+  margin-Left: 27%;
+  position: absolute;
+  bottom: 48%;
+  font-Size: 18px;
+}
+
+.posts {
+  margin-Left: 27%;
+  position: absolute;
+  bottom: 38%;
+  font-size: 25px;
+}
+
+.followers {
+  margin-Left: 35%;
+  position: absolute;
+  bottom: 38%;
+  font-size: 25px;
+}
+
+.postsdata {
+  margin-Left: 27%;
+  position: absolute;
+  bottom: 33%;
+  font-size: 20px;
+}
+
+.followersdata {
+  margin-Left: 35%;
+  position: absolute;
+  bottom: 33%;
+  font-size: 20px;
+}
+
+.container button {
+  margin-Left: 7%;
+  position: absolute;
+  bottom: 25%;
+  height: 40px;
+  width: 8%;
+  font-size: 15px;
+  border: 2px solid black;
+  border-Radius: 10px;
+}
