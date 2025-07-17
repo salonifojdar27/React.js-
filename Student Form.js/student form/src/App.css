@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.form {
+  height: 440px;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4%;
+  color: #333;
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+}
+
+label {
+  font-weight: 500;
+}
+
+.gender-group {
+  display: flex;
+  gap: 7px;
+}
+
+.gender-group label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+button {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+  background-color: white;
+  height: 40px;
+  width: 33%;
+  margin-left: 34%;
+  padding: 8px;
+  margin-top: 7%;
+  transition: border-color 0.3s;
+  cursor: pointer;
+}
