@@ -1,0 +1,69 @@
+h1 {
+    margin-left: 43%;
+    margin-top: 6%;
+    padding: 10px;
+    font-size: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/07/85/22/13/360_F_785221395_iPmAyxCoj4Wwi2APZ92YK8WcBsFAdXZr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+   
+}
+
+.accordion {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Accordion Item Styles */
+.accordion-item {
+    margin-bottom: 10px;
+    border: 3px solid #aba8a8;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Accordion Title Button */
+.accordion-title {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-title:hover {
+    background-color: #e0e0e0;
+}
+
+.accordion-title[aria-expanded="true"] {
+    background-color: #d0d0d0;
+}
+
+.accordion-content {
+    padding: 15px;
+    background-color: #fafafa;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.accordion p {
+    font-size: 18px;
+    color: #2f2d2d;
+    text-align: center;
+}
