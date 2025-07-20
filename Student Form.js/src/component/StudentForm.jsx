@@ -1,5 +1,5 @@
 
-import { Formik, useFormik } from 'formik';
+import { useFormik } from 'formik';
 import { object, string, number } from 'yup';
 
 const initialValues = {
@@ -13,14 +13,15 @@ const initialValues = {
 const StudentFormSchema = object({
     Name: string().required("Name must be filled"),
     Email: string().email("Invalid email format").required("Email must be filled"),
-    Password: number().required().positive().integer().required("Password must be filled"),
+    Password: number().integer().min(6, "Password must be at least 6 characters").required("Password must be filled"),
     profession: string().required("Must Select your profession"),
     Gender: string().required("Please select your gender"),
 });
 
 function StudentForm() {
     const formik = useFormik({
-        initialValues, validationSchema: StudentFormSchema,
+        initialValues,
+        validationSchema: StudentFormSchema,
         onSubmit: (values) => {
             console.log(values)
             formik.resetForm();
@@ -30,7 +31,7 @@ function StudentForm() {
 
     return (
         <div>
-            <h1>Students Form</h1>
+            <h1>Students Form 📝</h1>
             <div className="container">
                 <form action="" className="form" onSubmit={formik.handleSubmit}>
                     <input type="text" className="Name" value={formik.values.Name} name="Name" onChange={formik.handleChange} placeholder="Name" />

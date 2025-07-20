@@ -4,12 +4,15 @@
   align-items: center;
   padding: 40px;
 }
-
+body
+{
+  background-color: #bddaf8;
+}
 .form {
   background-color: #f8f9fa;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -18,8 +21,10 @@
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #161616;
   font-size: 35px;
+  margin-top: 3%;
+  margin-left: 3%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
