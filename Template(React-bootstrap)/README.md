@@ -1,12 +1,14 @@
-# React + Vite
+<h1>🌐 Integrate Bootstrap Template Project</h1>
+<p>This project demonstrates how to integrate a pre-designed Bootstrap template into a React application. It showcases the power of combining Bootstrap's responsive layout system with React’s component-based architecture to build clean, maintainable, and responsive user interfaces.</p>
+<br>
+<h1>✨ Features :</h1>
+<ul>
+   <li> ✅ Fully responsive layout using Bootstrap grid</li>
+   <li> ✅ Integrated Bootstrap template adapted into reusable React components</li>
+   <li> ✅ Smooth layout transitions with modern UI elements</li>
+   <li> ✅ Clean and modular component structure</li>
+   <li> ✅ Social media icons using react-icons</li>
+</ul>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br>
+<h1>📸 Preview</h1>
