@@ -1,0 +1,32 @@
+.image {
+    height: 400px;
+    width: 55%;
+    margin-top: 5%;
+}
+.title
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.category {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.descrption
+{
+    font-size: 1.2rem;
+    color: #6c757d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price {
+  font-size: 1.5rem;
+  color: #1d1d1d;
+  margin-bottom: 0.5rem;
+}
+
+.rate {
+  font-size: 1.3rem;
+  color: #9b9992;
+  margin-bottom: 1rem;
+}

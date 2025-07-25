@@ -1,42 +1,110 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.Navbar {
+  background-color: rgb(186, 185, 184);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  height: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.Navbar a {
+  text-decoration: none;
+}
+
+.product-card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.product-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  margin-top: 10%;
+  width: 90%;
+  padding: 30px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.product-card:hover {
+  transform: scale(1.03);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-image {
+  height: 350px;
+  object-fit: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.Product-button {
+  width: 50%;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
-.card {
-  padding: 2em;
+.product-price {
+  font-weight: 500;
+  font-size: 20px;
+  color: #5f6265;
 }
 
-.read-the-docs {
-  color: #888;
+.product-card:hover {
+  transform: scale(1.05);
 }
+
+.Edit,
+.Delete {
+  margin: 5px 10px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Edit {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.Edit:hover {
+  background-color: #e0a800;
+}
+
+.Delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.Delete:hover {
+  background-color: #c82333;
+}
+
+/* 
+.Edit {
+  background-color: rgb(73, 148, 239);
+  color: black;
+  width: 40%;
+  margin: 15px;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+.Delete {
+  background-color: red;
+  color: white;
+  width: 40%;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+} */
