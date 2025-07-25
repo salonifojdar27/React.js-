@@ -1,13 +1,47 @@
-
-.container {
-    height: 430px;
-    background-color: antiquewhite;
-    width: 60%;
-    margin-top: 5%;
+body {
+    background-image: url("https://img.freepik.com/free-vector/dark-stripe-shape-background_1409-1011.jpg?semt=ais_hybrid&w=740");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h3 {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 45px;
+.hero-section {
+    height: 430px;
+    width: 60%;
+    background-color: white;
+    padding: 3rem 1rem;
+    margin-top: 10%;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.hero-section p {
+    margin-top: 18px;
+    font-size: 15px;
+}
+
+.custom-btn {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 20px;
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+}
+
+.hero-img {
+    width: 400px;
+    height: 370px;
+    border-radius: 8px;
+}
+
+.social-icons a {
+    color: rgb(98, 97, 97);
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #1b81ee;
 }
