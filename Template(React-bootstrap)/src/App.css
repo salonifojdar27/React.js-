@@ -1,0 +1,13 @@
+
+.container {
+    height: 430px;
+    background-color: antiquewhite;
+    width: 60%;
+    margin-top: 5%;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 45px;
+}
