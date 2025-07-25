@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
 const Content = () => {
     return (
 
-        <div className="container-fluid hero-section d-flex align-items-center justify-content-center">
+        <div className="container hero-section d-flex align-items-center justify-content-center">
             <div className="row w-100 align-items-center">
                 {/* Left side - Text */}
                 <div className="col-md-6 text-center text-md-start px-4">

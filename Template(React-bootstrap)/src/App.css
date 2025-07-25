@@ -1,16 +1,18 @@
 body {
-    background-image: url("https://img.freepik.com/free-vector/dark-stripe-shape-background_1409-1011.jpg?semt=ais_hybrid&w=740");
+    /* background-image: url("https://img.freepik.com/free-vector/dark-stripe-shape-background_1409-1011.jpg?semt=ais_hybrid&w=740");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    /* background-color: rgb(131, 129, 129); */
+    background-color: black;
 }
 
 .hero-section {
-    height: 430px;
+    min-height: 60vh;
     width: 60%;
-    background-color: white;
-    padding: 3rem 1rem;
     margin-top: 10%;
+    padding: 40px 20px;
+    background-color: white;
 }
 
 .hero-section h2 {
@@ -32,9 +34,9 @@ body {
 }
 
 .hero-img {
-    width: 400px;
-    height: 370px;
-    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .social-icons a {
@@ -44,4 +46,18 @@ body {
 
 .social-icons a:hover {
     color: #1b81ee;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .custom-btn {
+        width: 100%;
+    }
 }
