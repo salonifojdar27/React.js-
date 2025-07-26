@@ -1,10 +1,11 @@
 
-// const Image = () => {
-//   return (
-//        <section className="d-flex align-items-end justify-content-center overflow-hidden">
-//            <img src="https://media.istockphoto.com/id/1192320181/photo/happy-laughing-guy-posing-with-arms-folded.jpg?s=612x612&w=0&k=20&c=VhRenDhwf8VKyHFv7aeSvU7r7bOeC138qTeyX3gCnyA=" alt="john doe" className="img-fluid " style={{minHeight:"100px",height:"100%",width:"auto",objectFit:"cover",maxWidth:"none"}} />
-//        </section>
-//   )
-// }
+const Image = () => {
+    return (
+        <div className="col-md-6 text-center mt-5 mt-md-0">
+            <img src="https://t3.ftcdn.net/jpg/06/41/26/64/360_F_641266494_Qy6PJV3b9ZvuFPg7f5vGEFMMsynp4NWZ.jpg" alt="John Doe" className="img-fluid hero-img" />
+        </div>
+    )
+}
 
-// export default Image
+export default Image
+
