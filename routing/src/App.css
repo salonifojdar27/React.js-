@@ -1,20 +1,32 @@
-.Navbar {
-  background-color: rgb(186, 185, 184);
-  display: flex;
-  justify-content: space-around;
+  .Navbar 
+  {display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 5px;
-  height: 65px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
+  gap: 50px;
+  background-color: #e4e5e7;
+  padding: 18px 33px;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 18px;
-}
+  }
 
 .Navbar a {
   text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
 }
 
+.Navbar a:hover {
+  background-color: rgba(37, 134, 232, 0.1);
+  color: #2586e8;
+}
+
+.Navbar a.active {
+  color: white;
+  background-color: rgba(37, 134, 232, 1);
+}
 .product-card-container {
   display: flex;
   justify-content: center;
