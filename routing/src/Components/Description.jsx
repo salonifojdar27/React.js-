@@ -25,20 +25,27 @@ const Description = () => {
     }, [])
 
     return (
-        <div>
-            <div className="product-card-container" style={{ textAlign: "center",marginTop:"5%" }}>
-                <Card className="card" style={{ width: "40%" }}>
-                    <Link to={"/Description"}><Card.Img variant="top" src={products.image} className="image" /></Link>
-                    <Card.Body>
-                        <Card.Title className="title">{products.title}</Card.Title>
-                        <Card.Text className="descrption">{products.description}</Card.Text>
-                          <Card.Text className="category">Category : {products.category}</Card.Text>
-                        <Card.Text className="price">Price : {products.price}</Card.Text>
-                        <Card.Text className="rate">Rate : {products?.rating?.rate}</Card.Text>
-                        <Button variant="primary" className="Product-button">Add to Cart</Button>
-                    </Card.Body>
-                </Card>
-            </div>
+       <div className="product-card-container container" style={{ marginTop: "5%" }}>
+            <Card className="p-4 shadow">
+                <div className="row align-items-center">
+                    {/* Left Column - Product Image is shown here */}
+                    <div className="col-md-6 text-center">
+                        <Link to={"/Description"}> <Card.Img variant="top" src={products.image} className="img-fluid product-image" style={{ maxHeight: "400px", objectFit: "contain" }} /></Link>
+                    </div>
+
+                    {/* Right Column - Product Description  is shown here*/}
+                    <div className="col-md-6">
+                        <Card.Body>
+                            <Card.Title className="title mb-3">{products.title}</Card.Title>
+                            <Card.Text className="description mb-3">{products.description}</Card.Text>
+                            <Card.Text className="category">Category: {products.category}</Card.Text>
+                            <Card.Text className="price">Price: ₹{products.price}</Card.Text>
+                            <Card.Text className="rate">Rating: {products?.rating?.rate}</Card.Text>
+                            <Button variant="primary" className="Product-button mt-3">Add to Cart</Button>
+                        </Card.Body>
+                    </div>
+                </div>
+            </Card>
         </div>
     )
 }
